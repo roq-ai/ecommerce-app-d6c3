@@ -1,0 +1,2472 @@
+[
+  {
+    "category": [
+      {
+        "id": "520aaaa6-0c28-4e62-87c2-8576e64d491e",
+        "name": "Electronics",
+        "description": "The latest gadgets and technology",
+        "created_at": "2023-09-20T20:24:05.120Z",
+        "updated_at": "2023-09-20T21:47:00.895Z"
+      },
+      {
+        "id": "06be5e6f-79cc-44f6-a9ce-09ff53176f0f",
+        "name": "Fashion",
+        "description": "Trendy clothing and accessories",
+        "created_at": "2023-09-20T19:07:29.533Z",
+        "updated_at": "2023-09-20T11:03:34.156Z"
+      },
+      {
+        "id": "f7f2f738-1e75-48ab-8d38-592046ca7e8b",
+        "name": "Home Decor",
+        "description": "Stylish and unique home furnishings",
+        "created_at": "2023-09-20T08:00:00.174Z",
+        "updated_at": "2023-09-20T20:26:28.788Z"
+      },
+      {
+        "id": "6a3ddc45-c083-40b8-a3ff-b4b8e883ba11",
+        "name": "Sports",
+        "description": "Equipment and gear for various sports",
+        "created_at": "2023-09-20T02:49:01.810Z",
+        "updated_at": "2023-09-20T03:00:54.154Z"
+      },
+      {
+        "id": "a3933c1c-0422-4201-98e8-f5b2f250fdc9",
+        "name": "Beauty",
+        "description": "Cosmetics and skincare products",
+        "created_at": "2023-09-20T00:54:32.676Z",
+        "updated_at": "2023-09-20T11:58:50.829Z"
+      }
+    ],
+    "product": [
+      {
+        "id": "4563836f-848c-4355-a9f2-8f6338437fab",
+        "name": "Smartphone",
+        "description": "A high-performance mobile device",
+        "price": 22184,
+        "stock": 74854,
+        "created_at": "2023-09-20T19:23:32.900Z",
+        "updated_at": "2023-09-20T20:01:13.803Z",
+        "category_id": "f7f2f738-1e75-48ab-8d38-592046ca7e8b",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "973c1423-e7b0-412f-b35a-8c8107aca5df",
+        "name": "Designer Handbag",
+        "description": "A luxury accessory made from premium materials",
+        "price": 47557,
+        "stock": 54607,
+        "created_at": "2023-09-20T07:15:58.439Z",
+        "updated_at": "2023-09-20T21:23:36.672Z",
+        "category_id": "06be5e6f-79cc-44f6-a9ce-09ff53176f0f",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "afb2cce3-d8ba-4ce4-b031-3d889a20d50a",
+        "name": "Decorative Pillow",
+        "description": "A soft and stylish addition to any room",
+        "price": 92767,
+        "stock": 97372,
+        "created_at": "2023-09-20T02:38:59.510Z",
+        "updated_at": "2023-09-20T12:27:23.742Z",
+        "category_id": "6a3ddc45-c083-40b8-a3ff-b4b8e883ba11",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "935a3563-5d3f-49ee-9f63-4bd7daee0bcc",
+        "name": "Running Shoes",
+        "description": "Comfortable footwear for active individuals",
+        "price": 55782,
+        "stock": 46146,
+        "created_at": "2023-09-20T19:05:12.204Z",
+        "updated_at": "2023-09-20T08:39:22.098Z",
+        "category_id": "6a3ddc45-c083-40b8-a3ff-b4b8e883ba11",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "707d1d13-417d-4bdf-b780-5d15b4a51042",
+        "name": "Lipstick",
+        "description": "A vibrant and long-lasting lip color",
+        "price": 64323,
+        "stock": 77131,
+        "created_at": "2023-09-20T09:16:17.325Z",
+        "updated_at": "2023-09-20T07:37:32.300Z",
+        "category_id": "6a3ddc45-c083-40b8-a3ff-b4b8e883ba11",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "order": [
+      {
+        "id": "bc5809d6-d7b9-4ea5-83d7-54d0882e78cb",
+        "quantity": 71546,
+        "total_price": 25283,
+        "order_date": "2023-09-20T19:31:31.061Z",
+        "status": "Pending",
+        "created_at": "2023-09-20T20:15:13.581Z",
+        "updated_at": "2023-09-20T02:22:25.143Z",
+        "product_id": "973c1423-e7b0-412f-b35a-8c8107aca5df",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "95e73f04-2de1-4584-a32b-922b5af877a3",
+        "quantity": 57607,
+        "total_price": 85982,
+        "order_date": "2023-09-20T19:47:47.664Z",
+        "status": "Processing",
+        "created_at": "2023-09-20T09:35:41.133Z",
+        "updated_at": "2023-09-20T04:24:17.841Z",
+        "product_id": "afb2cce3-d8ba-4ce4-b031-3d889a20d50a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e0a4bc64-c348-4a5a-b3ff-f0e0e10766e5",
+        "quantity": 10318,
+        "total_price": 58428,
+        "order_date": "2023-09-20T11:46:09.572Z",
+        "status": "Shipped",
+        "created_at": "2023-09-20T13:39:15.039Z",
+        "updated_at": "2023-09-20T10:04:05.238Z",
+        "product_id": "935a3563-5d3f-49ee-9f63-4bd7daee0bcc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "156f8f44-5a1d-40b2-8d04-8dcdce864bdf",
+        "quantity": 95938,
+        "total_price": 83375,
+        "order_date": "2023-09-20T13:44:38.036Z",
+        "status": "Delivered",
+        "created_at": "2023-09-20T11:17:36.354Z",
+        "updated_at": "2023-09-20T10:52:36.602Z",
+        "product_id": "973c1423-e7b0-412f-b35a-8c8107aca5df",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5f762acc-f4d8-4c48-a222-97bae4e91fad",
+        "quantity": 12395,
+        "total_price": 32359,
+        "order_date": "2023-09-20T12:28:59.245Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-20T14:16:33.071Z",
+        "updated_at": "2023-09-20T08:30:34.679Z",
+        "product_id": "afb2cce3-d8ba-4ce4-b031-3d889a20d50a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cart": [
+      {
+        "id": "20d54676-c8f1-49c8-89cb-faecf26761fe",
+        "quantity": 6058,
+        "added_date": "2023-09-20T01:25:38.146Z",
+        "created_at": "2023-09-20T01:31:45.820Z",
+        "updated_at": "2023-09-20T11:22:31.198Z",
+        "product_id": "afb2cce3-d8ba-4ce4-b031-3d889a20d50a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7460e0e2-fdd1-4a5b-9e5b-d2439294a4c2",
+        "quantity": 77015,
+        "added_date": "2023-09-20T20:11:29.838Z",
+        "created_at": "2023-09-20T00:24:41.047Z",
+        "updated_at": "2023-09-20T08:13:02.065Z",
+        "product_id": "973c1423-e7b0-412f-b35a-8c8107aca5df",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "32b56e0e-7fb0-4bcf-9b27-03244ca0b3a1",
+        "quantity": 92311,
+        "added_date": "2023-09-20T15:06:45.421Z",
+        "created_at": "2023-09-20T07:34:35.692Z",
+        "updated_at": "2023-09-20T01:30:26.442Z",
+        "product_id": "973c1423-e7b0-412f-b35a-8c8107aca5df",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "457e4740-9f80-47e1-a22b-769e944756f0",
+        "quantity": 73603,
+        "added_date": "2023-09-20T15:24:33.525Z",
+        "created_at": "2023-09-20T06:44:51.379Z",
+        "updated_at": "2023-09-20T10:11:49.091Z",
+        "product_id": "973c1423-e7b0-412f-b35a-8c8107aca5df",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "42d69394-1dd7-4c08-8730-ea26b8349e07",
+        "quantity": 55496,
+        "added_date": "2023-09-20T02:05:57.246Z",
+        "created_at": "2023-09-20T14:37:13.494Z",
+        "updated_at": "2023-09-20T13:31:29.129Z",
+        "product_id": "afb2cce3-d8ba-4ce4-b031-3d889a20d50a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "17a60bed-fed6-421a-b6de-13284588955f",
+        "email": "Clarabelle.Russel@hotmail.com",
+        "firstName": "Foster",
+        "lastName": "Marks",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50438841",
+        "tenantId": null
+      },
+      {
+        "reference": "996b65eb-5cdf-497e-a5a3-1796e533f722",
+        "email": "Telly29@yahoo.com",
+        "firstName": "Davon",
+        "lastName": "Walsh",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1218.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f9b4538f-9496-486b-8e0a-1c46684bc127",
+        "email": "Maximus.Tremblay@hotmail.com",
+        "firstName": "Timmy",
+        "lastName": "Steuber",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22854305",
+        "tenantId": null
+      },
+      {
+        "reference": "c876b407-a8c9-4583-be58-18b2cb25fb05",
+        "email": "Amy_Sauer@hotmail.com",
+        "firstName": "Hilma",
+        "lastName": "Bosco",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7502005",
+        "tenantId": null
+      },
+      {
+        "reference": "d6280d21-cba4-43f0-8e74-88425d3cfb24",
+        "email": "Alayna_Hessel66@hotmail.com",
+        "firstName": "Wilber",
+        "lastName": "Thiel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/676.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "category": [
+      {
+        "id": "8704dbde-0d03-4fd8-9179-39360f32885b",
+        "name": "Electronics",
+        "description": "High-quality electronic products",
+        "created_at": "2023-09-20T09:42:04.806Z",
+        "updated_at": "2023-09-20T05:47:52.481Z"
+      },
+      {
+        "id": "d9c248dc-a987-45f9-b594-60901488c012",
+        "name": "Clothing",
+        "description": "Fashionable clothing and accessories",
+        "created_at": "2023-09-20T03:31:30.541Z",
+        "updated_at": "2023-09-20T15:36:54.107Z"
+      },
+      {
+        "id": "ab44b073-24e5-48f8-9133-44ade555633c",
+        "name": "Home Decor",
+        "description": "Unique and stylish home decor items",
+        "created_at": "2023-09-20T00:57:48.271Z",
+        "updated_at": "2023-09-20T18:43:55.048Z"
+      },
+      {
+        "id": "83dbc7a8-d12d-4024-9b40-8a435a9fd772",
+        "name": "Sports & Fitness",
+        "description": "Equipment for sports and fitness activities",
+        "created_at": "2023-09-20T08:25:59.566Z",
+        "updated_at": "2023-09-20T00:12:25.012Z"
+      },
+      {
+        "id": "fac38149-c612-49c5-8e38-3f1170bd6805",
+        "name": "Beauty & Personal Care",
+        "description": "Beauty and personal care products for self-care",
+        "created_at": "2023-09-20T21:06:07.430Z",
+        "updated_at": "2023-09-20T13:57:11.736Z"
+      }
+    ],
+    "product": [
+      {
+        "id": "cf24f434-6ce0-4a64-aa47-4bfe0fd55a18",
+        "name": "Smartphone",
+        "description": "A cutting-edge smartphone with advanced features",
+        "price": 93742,
+        "stock": 18659,
+        "created_at": "2023-09-20T18:29:51.093Z",
+        "updated_at": "2023-09-20T08:27:31.934Z",
+        "category_id": "83dbc7a8-d12d-4024-9b40-8a435a9fd772",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f1e7ab04-3201-4281-a5ce-f0cf2bf1c980",
+        "name": "T-shirt",
+        "description": "A comfortable and trendy t-shirt for everyday wear",
+        "price": 82728,
+        "stock": 43177,
+        "created_at": "2023-09-20T16:10:50.413Z",
+        "updated_at": "2023-09-20T21:46:12.100Z",
+        "category_id": "ab44b073-24e5-48f8-9133-44ade555633c",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "509f0ec1-0776-4e51-9dcb-f24ad639a4ad",
+        "name": "Decorative Pillow",
+        "description": "A soft and stylish decorative pillow for your home",
+        "price": 4188,
+        "stock": 9377,
+        "created_at": "2023-09-20T03:07:06.934Z",
+        "updated_at": "2023-09-20T09:24:06.732Z",
+        "category_id": "fac38149-c612-49c5-8e38-3f1170bd6805",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a43c0abe-6565-4c9c-aa85-b1695b3f5295",
+        "name": "Yoga Mat",
+        "description": "A durable and non-slip yoga mat for exercise",
+        "price": 67591,
+        "stock": 37562,
+        "created_at": "2023-09-20T06:05:08.049Z",
+        "updated_at": "2023-09-20T13:40:34.275Z",
+        "category_id": "83dbc7a8-d12d-4024-9b40-8a435a9fd772",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ba4e2f98-3e07-4599-b4f4-362d92e541cc",
+        "name": "Face Cream",
+        "description": "A nourishing face cream for healthy skin",
+        "price": 80876,
+        "stock": 68102,
+        "created_at": "2023-09-20T00:58:12.274Z",
+        "updated_at": "2023-09-20T20:29:56.736Z",
+        "category_id": "83dbc7a8-d12d-4024-9b40-8a435a9fd772",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "order": [
+      {
+        "id": "83a4ac92-805c-4eb1-ae6a-7378694723c4",
+        "quantity": 57351,
+        "total_price": 43808,
+        "order_date": "2023-09-20T19:56:14.697Z",
+        "status": "Pending",
+        "created_at": "2023-09-20T15:07:03.763Z",
+        "updated_at": "2023-09-20T04:20:45.021Z",
+        "product_id": "ba4e2f98-3e07-4599-b4f4-362d92e541cc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b57e3b5e-ed18-4ec3-92dc-2713a7ae4ce0",
+        "quantity": 73110,
+        "total_price": 48789,
+        "order_date": "2023-09-20T12:44:20.727Z",
+        "status": "Processing",
+        "created_at": "2023-09-20T01:52:47.682Z",
+        "updated_at": "2023-09-20T19:16:21.968Z",
+        "product_id": "509f0ec1-0776-4e51-9dcb-f24ad639a4ad",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "371d7e70-4523-48f9-81be-d538dc0a4df9",
+        "quantity": 11862,
+        "total_price": 99402,
+        "order_date": "2023-09-20T14:14:58.267Z",
+        "status": "Shipped",
+        "created_at": "2023-09-20T17:38:03.928Z",
+        "updated_at": "2023-09-20T22:29:33.859Z",
+        "product_id": "a43c0abe-6565-4c9c-aa85-b1695b3f5295",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b45baa29-c50a-4b38-a673-827b0ca6935e",
+        "quantity": 77967,
+        "total_price": 57592,
+        "order_date": "2023-09-20T16:11:00.134Z",
+        "status": "Delivered",
+        "created_at": "2023-09-20T21:26:45.847Z",
+        "updated_at": "2023-09-20T05:21:02.942Z",
+        "product_id": "cf24f434-6ce0-4a64-aa47-4bfe0fd55a18",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "52d7cb38-0940-4844-874d-0fa9782907d9",
+        "quantity": 74371,
+        "total_price": 93587,
+        "order_date": "2023-09-20T19:16:07.460Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-20T02:12:23.338Z",
+        "updated_at": "2023-09-19T23:51:45.061Z",
+        "product_id": "a43c0abe-6565-4c9c-aa85-b1695b3f5295",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cart": [
+      {
+        "id": "2a372703-4662-43de-bd99-c4b21631ae2b",
+        "quantity": 80456,
+        "added_date": "2023-09-20T07:37:35.460Z",
+        "created_at": "2023-09-20T18:42:36.685Z",
+        "updated_at": "2023-09-20T02:06:01.598Z",
+        "product_id": "a43c0abe-6565-4c9c-aa85-b1695b3f5295",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3af72dd7-c042-4c33-98b6-9c68da0ff53d",
+        "quantity": 34836,
+        "added_date": "2023-09-20T21:35:15.130Z",
+        "created_at": "2023-09-20T09:39:30.241Z",
+        "updated_at": "2023-09-20T05:31:11.654Z",
+        "product_id": "cf24f434-6ce0-4a64-aa47-4bfe0fd55a18",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5db7a2d8-1283-4a08-aa48-95326f542eb6",
+        "quantity": 15558,
+        "added_date": "2023-09-20T18:45:01.682Z",
+        "created_at": "2023-09-20T06:38:48.889Z",
+        "updated_at": "2023-09-20T00:26:53.735Z",
+        "product_id": "a43c0abe-6565-4c9c-aa85-b1695b3f5295",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0b444ed5-b3ed-42a5-9b2d-fabd5d68b42b",
+        "quantity": 67818,
+        "added_date": "2023-09-20T16:34:00.637Z",
+        "created_at": "2023-09-20T09:43:23.863Z",
+        "updated_at": "2023-09-20T10:50:32.905Z",
+        "product_id": "ba4e2f98-3e07-4599-b4f4-362d92e541cc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8ccdbd5f-d143-4045-8021-007286275aec",
+        "quantity": 75584,
+        "added_date": "2023-09-20T02:03:37.607Z",
+        "created_at": "2023-09-20T12:18:49.273Z",
+        "updated_at": "2023-09-19T23:58:16.911Z",
+        "product_id": "cf24f434-6ce0-4a64-aa47-4bfe0fd55a18",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "fa4d2800-9581-4059-abb8-711363176d68",
+        "email": "Francis68@hotmail.com",
+        "firstName": "Holden",
+        "lastName": "Hodkiewicz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/794980",
+        "tenantId": null
+      },
+      {
+        "reference": "22ac0389-9930-44e4-8dc0-96da1504ae0a",
+        "email": "Reva_Stark@yahoo.com",
+        "firstName": "Alysa",
+        "lastName": "Padberg",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/77422241",
+        "tenantId": null
+      },
+      {
+        "reference": "0dfa622c-2c02-4753-9eaf-825bc3ff34fd",
+        "email": "Van3@yahoo.com",
+        "firstName": "Jayce",
+        "lastName": "Fadel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/72667852",
+        "tenantId": null
+      },
+      {
+        "reference": "c5a25a25-01b3-412d-b3f7-3e88f3a09a1c",
+        "email": "Floy_Daugherty-Feest72@yahoo.com",
+        "firstName": "Hilda",
+        "lastName": "Greenfelder",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7280379",
+        "tenantId": null
+      },
+      {
+        "reference": "3c0816b4-b66d-4fc8-bd0f-ffdb99a8ef7a",
+        "email": "Rigoberto83@gmail.com",
+        "firstName": "Ola",
+        "lastName": "Harris",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84059881",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "category": [
+      {
+        "id": "84df2083-f7a2-4276-92a5-905a6935ec11",
+        "name": "Electronics",
+        "description": "A wide range of electronic products",
+        "created_at": "2023-09-20T08:26:27.680Z",
+        "updated_at": "2023-09-20T18:27:14.680Z"
+      },
+      {
+        "id": "327fc9ce-63ea-45a1-b982-1ddc9f6f9214",
+        "name": "Clothing",
+        "description": "Fashionable clothing for all ages",
+        "created_at": "2023-09-20T19:38:09.259Z",
+        "updated_at": "2023-09-20T03:05:45.945Z"
+      },
+      {
+        "id": "6f17b3c1-65df-473d-a42a-b202254f5e76",
+        "name": "Home Decor",
+        "description": "Stylish home decor items",
+        "created_at": "2023-09-20T07:21:11.765Z",
+        "updated_at": "2023-09-20T22:17:39.047Z"
+      },
+      {
+        "id": "9e03469c-ff77-46c0-b287-e3a6ca229a1f",
+        "name": "Automotive",
+        "description": "Quality automotive accessories",
+        "created_at": "2023-09-20T22:44:52.827Z",
+        "updated_at": "2023-09-20T04:38:08.924Z"
+      },
+      {
+        "id": "f6b7b06d-8879-4dba-a378-7f04d444625f",
+        "name": "Sports",
+        "description": "Sports equipment and apparel",
+        "created_at": "2023-09-20T22:12:05.676Z",
+        "updated_at": "2023-09-20T04:55:04.302Z"
+      }
+    ],
+    "product": [
+      {
+        "id": "f2f4f1ef-8510-432a-97b9-189f2cb3d106",
+        "name": "Smartphone",
+        "description": "Cutting-edge smartphone with advanced features",
+        "price": 92106,
+        "stock": 96666,
+        "created_at": "2023-09-20T07:38:34.071Z",
+        "updated_at": "2023-09-20T06:54:43.907Z",
+        "category_id": "84df2083-f7a2-4276-92a5-905a6935ec11",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ce895e0d-b988-4eed-956b-f8a529c6500e",
+        "name": "T-shirt",
+        "description": "Comfortable and trendy t-shirt for everyday wear",
+        "price": 59455,
+        "stock": 78307,
+        "created_at": "2023-09-20T10:38:19.963Z",
+        "updated_at": "2023-09-20T17:12:50.541Z",
+        "category_id": "6f17b3c1-65df-473d-a42a-b202254f5e76",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "186e6d22-9418-4e12-ae72-2f4b2fe16305",
+        "name": "Decorative Pillow",
+        "description": "Soft and stylish decorative pillow for your home",
+        "price": 72195,
+        "stock": 2513,
+        "created_at": "2023-09-20T12:29:25.176Z",
+        "updated_at": "2023-09-20T00:54:34.385Z",
+        "category_id": "327fc9ce-63ea-45a1-b982-1ddc9f6f9214",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c0ea94c0-bf17-445a-ad69-c1e74452fe22",
+        "name": "Car Wax",
+        "description": "High-quality car wax for a shiny finish",
+        "price": 74066,
+        "stock": 24956,
+        "created_at": "2023-09-20T21:12:04.581Z",
+        "updated_at": "2023-09-20T23:00:29.755Z",
+        "category_id": "327fc9ce-63ea-45a1-b982-1ddc9f6f9214",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "86f56834-86ee-498e-89c9-1406a39a2166",
+        "name": "Running Shoes",
+        "description": "Durable and comfortable running shoes for athletes",
+        "price": 26610,
+        "stock": 379,
+        "created_at": "2023-09-20T05:39:54.972Z",
+        "updated_at": "2023-09-20T22:00:49.447Z",
+        "category_id": "f6b7b06d-8879-4dba-a378-7f04d444625f",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "order": [
+      {
+        "id": "371a890e-b4df-4747-97d5-4436902fb526",
+        "quantity": 95215,
+        "total_price": 37810,
+        "order_date": "2023-09-20T01:59:44.869Z",
+        "status": "Pending",
+        "created_at": "2023-09-20T07:54:40.871Z",
+        "updated_at": "2023-09-20T00:32:50.013Z",
+        "product_id": "86f56834-86ee-498e-89c9-1406a39a2166",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5b50f8f1-f10f-4141-8560-5249e6931d7a",
+        "quantity": 83924,
+        "total_price": 17008,
+        "order_date": "2023-09-20T01:25:33.255Z",
+        "status": "Processing",
+        "created_at": "2023-09-20T07:55:18.119Z",
+        "updated_at": "2023-09-20T17:35:17.222Z",
+        "product_id": "86f56834-86ee-498e-89c9-1406a39a2166",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6a15e83d-01cf-4e6d-b2c5-b8153bebfc15",
+        "quantity": 53455,
+        "total_price": 69409,
+        "order_date": "2023-09-20T22:06:35.538Z",
+        "status": "Shipped",
+        "created_at": "2023-09-20T03:04:48.150Z",
+        "updated_at": "2023-09-20T19:14:40.448Z",
+        "product_id": "f2f4f1ef-8510-432a-97b9-189f2cb3d106",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eca16243-51c5-4c87-a05a-dcd44f2d694d",
+        "quantity": 5024,
+        "total_price": 31029,
+        "order_date": "2023-09-20T10:58:57.462Z",
+        "status": "Delivered",
+        "created_at": "2023-09-20T22:42:34.017Z",
+        "updated_at": "2023-09-20T02:13:40.463Z",
+        "product_id": "86f56834-86ee-498e-89c9-1406a39a2166",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7e6ba366-a656-4bd0-b4ee-edb1d635c9fe",
+        "quantity": 28526,
+        "total_price": 8007,
+        "order_date": "2023-09-20T05:20:12.676Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-20T22:34:02.731Z",
+        "updated_at": "2023-09-20T02:25:45.879Z",
+        "product_id": "f2f4f1ef-8510-432a-97b9-189f2cb3d106",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cart": [
+      {
+        "id": "f00b0373-1da0-4bb6-9a9b-332a54a2d630",
+        "quantity": 27597,
+        "added_date": "2023-09-20T08:31:47.974Z",
+        "created_at": "2023-09-20T18:44:04.410Z",
+        "updated_at": "2023-09-20T15:59:32.615Z",
+        "product_id": "186e6d22-9418-4e12-ae72-2f4b2fe16305",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "599d056f-db04-4afe-938d-e59958a0c839",
+        "quantity": 53410,
+        "added_date": "2023-09-20T22:29:09.391Z",
+        "created_at": "2023-09-20T03:56:26.922Z",
+        "updated_at": "2023-09-20T22:10:51.547Z",
+        "product_id": "f2f4f1ef-8510-432a-97b9-189f2cb3d106",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "05cd5ca0-0074-4e21-99bb-d982554b4879",
+        "quantity": 26019,
+        "added_date": "2023-09-20T18:14:50.742Z",
+        "created_at": "2023-09-20T22:23:31.789Z",
+        "updated_at": "2023-09-20T02:51:39.619Z",
+        "product_id": "c0ea94c0-bf17-445a-ad69-c1e74452fe22",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9736867f-bc71-40fd-940a-d1d923d727ff",
+        "quantity": 51195,
+        "added_date": "2023-09-20T20:25:12.950Z",
+        "created_at": "2023-09-20T05:42:23.597Z",
+        "updated_at": "2023-09-20T22:20:00.019Z",
+        "product_id": "186e6d22-9418-4e12-ae72-2f4b2fe16305",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "34ba051a-cfc8-48db-8154-cae0242071bd",
+        "quantity": 85401,
+        "added_date": "2023-09-20T07:48:20.937Z",
+        "created_at": "2023-09-20T09:17:34.717Z",
+        "updated_at": "2023-09-20T08:14:57.365Z",
+        "product_id": "186e6d22-9418-4e12-ae72-2f4b2fe16305",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7af88470-c353-45b3-9e90-f47775c93fe5",
+        "email": "Orion.Weimann@gmail.com",
+        "firstName": "Marion",
+        "lastName": "Schmitt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/364.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "88da30f6-c16c-41b0-b4d0-3e0e923ae08a",
+        "email": "Giovani79@gmail.com",
+        "firstName": "Ned",
+        "lastName": "Turner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86902654",
+        "tenantId": null
+      },
+      {
+        "reference": "6fb6e45b-940d-44f3-9b1f-cf52314b361b",
+        "email": "Johann62@gmail.com",
+        "firstName": "Destinee",
+        "lastName": "Heaney",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54792513",
+        "tenantId": null
+      },
+      {
+        "reference": "84620eb0-1e7d-4ab7-ab23-cd383b1c42ed",
+        "email": "Virginie.Adams27@hotmail.com",
+        "firstName": "Trevor",
+        "lastName": "Johnston",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42025954",
+        "tenantId": null
+      },
+      {
+        "reference": "7be7700f-4cee-4097-962c-5c731d8b5f50",
+        "email": "Jaeden_Gottlieb41@gmail.com",
+        "firstName": "Floy",
+        "lastName": "Greenfelder",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/27.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "category": [
+      {
+        "id": "0ee209b3-8a0a-4a27-b8e9-1731d10820a0",
+        "name": "Electronics",
+        "description": "A wide range of electronic products",
+        "created_at": "2023-09-20T15:14:51.788Z",
+        "updated_at": "2023-09-20T22:54:43.035Z"
+      },
+      {
+        "id": "e0650a06-77cf-4bde-a4e1-7fb68a124708",
+        "name": "Clothing",
+        "description": "Fashionable clothing for all ages",
+        "created_at": "2023-09-20T22:26:31.749Z",
+        "updated_at": "2023-09-20T09:43:41.891Z"
+      },
+      {
+        "id": "90150776-0bb6-4395-95f0-753a3528794e",
+        "name": "Home Decor",
+        "description": "Stylish home decor items",
+        "created_at": "2023-09-20T21:01:54.450Z",
+        "updated_at": "2023-09-20T13:51:57.581Z"
+      },
+      {
+        "id": "72b90ad0-a26c-4cf3-bf1c-545433f46053",
+        "name": "Sports Equipment",
+        "description": "High-quality sports equipment",
+        "created_at": "2023-09-20T21:56:56.780Z",
+        "updated_at": "2023-09-20T22:32:25.111Z"
+      },
+      {
+        "id": "ec4fbc0a-dec5-47c2-9dc4-1f706c5ff8ee",
+        "name": "Beauty",
+        "description": "Beauty products for all skin types",
+        "created_at": "2023-09-20T17:51:25.911Z",
+        "updated_at": "2023-09-20T10:07:41.836Z"
+      }
+    ],
+    "product": [
+      {
+        "id": "f27c0b12-8aa8-4216-b2b8-4a6c3a9c1496",
+        "name": "Smartphone",
+        "description": "A powerful and sleek smartphone",
+        "price": 57879,
+        "stock": 18704,
+        "created_at": "2023-09-20T08:27:08.955Z",
+        "updated_at": "2023-09-20T13:55:59.808Z",
+        "category_id": "e0650a06-77cf-4bde-a4e1-7fb68a124708",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3196d634-20f3-4081-b464-eed11b68b831",
+        "name": "T-shirt",
+        "description": "Comfortable and trendy t-shirt",
+        "price": 61759,
+        "stock": 21850,
+        "created_at": "2023-09-20T01:28:24.742Z",
+        "updated_at": "2023-09-20T01:14:03.837Z",
+        "category_id": "0ee209b3-8a0a-4a27-b8e9-1731d10820a0",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2d4a02d6-cb68-4592-ad86-fdf1d10fc8be",
+        "name": "Table Lamp",
+        "description": "Elegant table lamp for your home",
+        "price": 91708,
+        "stock": 95753,
+        "created_at": "2023-09-20T21:16:56.831Z",
+        "updated_at": "2023-09-20T21:09:41.095Z",
+        "category_id": "ec4fbc0a-dec5-47c2-9dc4-1f706c5ff8ee",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f1dd7296-51c6-4826-b78a-c09d60f67102",
+        "name": "Tennis Racket",
+        "description": "Durable and lightweight tennis racket",
+        "price": 1373,
+        "stock": 40480,
+        "created_at": "2023-09-20T09:11:46.184Z",
+        "updated_at": "2023-09-20T06:17:35.158Z",
+        "category_id": "e0650a06-77cf-4bde-a4e1-7fb68a124708",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "478bdf91-da36-4171-8d93-d74fe1216130",
+        "name": "Face Cream",
+        "description": "Moisturizing face cream for radiant skin",
+        "price": 3507,
+        "stock": 3913,
+        "created_at": "2023-09-20T19:14:50.281Z",
+        "updated_at": "2023-09-20T14:57:14.573Z",
+        "category_id": "ec4fbc0a-dec5-47c2-9dc4-1f706c5ff8ee",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "order": [
+      {
+        "id": "95f9a41f-5721-4ec9-93fd-1c70a3388287",
+        "quantity": 17433,
+        "total_price": 8235,
+        "order_date": "2023-09-20T14:30:44.334Z",
+        "status": "Pending",
+        "created_at": "2023-09-20T09:00:35.831Z",
+        "updated_at": "2023-09-20T09:16:24.873Z",
+        "product_id": "478bdf91-da36-4171-8d93-d74fe1216130",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7d74e9ce-0c3b-42d1-b885-d9ab2204a0a2",
+        "quantity": 72043,
+        "total_price": 24965,
+        "order_date": "2023-09-20T18:57:29.282Z",
+        "status": "Processing",
+        "created_at": "2023-09-20T22:29:12.013Z",
+        "updated_at": "2023-09-20T18:03:36.953Z",
+        "product_id": "f27c0b12-8aa8-4216-b2b8-4a6c3a9c1496",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "80e33e1d-eeaa-4d20-88a7-72ce1cf6c25c",
+        "quantity": 33463,
+        "total_price": 77624,
+        "order_date": "2023-09-20T14:16:55.255Z",
+        "status": "Shipped",
+        "created_at": "2023-09-20T06:13:42.331Z",
+        "updated_at": "2023-09-20T21:03:46.651Z",
+        "product_id": "3196d634-20f3-4081-b464-eed11b68b831",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "101c3703-76ff-489e-ab4c-6f9846e192de",
+        "quantity": 66441,
+        "total_price": 72020,
+        "order_date": "2023-09-20T16:38:19.986Z",
+        "status": "Delivered",
+        "created_at": "2023-09-20T21:08:28.937Z",
+        "updated_at": "2023-09-20T00:46:59.569Z",
+        "product_id": "3196d634-20f3-4081-b464-eed11b68b831",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8ac573fe-53a7-447d-9c6a-56a1c3fde68e",
+        "quantity": 80156,
+        "total_price": 36651,
+        "order_date": "2023-09-20T05:30:06.342Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-20T08:03:13.745Z",
+        "updated_at": "2023-09-20T20:58:40.902Z",
+        "product_id": "f27c0b12-8aa8-4216-b2b8-4a6c3a9c1496",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cart": [
+      {
+        "id": "2a59afe7-0540-429f-b190-82e3ba5e7a65",
+        "quantity": 52318,
+        "added_date": "2023-09-20T14:09:14.321Z",
+        "created_at": "2023-09-20T01:45:19.758Z",
+        "updated_at": "2023-09-20T08:52:23.482Z",
+        "product_id": "3196d634-20f3-4081-b464-eed11b68b831",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ba4c8b0a-8ea7-44f4-95e5-4170f946fb46",
+        "quantity": 1951,
+        "added_date": "2023-09-20T05:17:00.299Z",
+        "created_at": "2023-09-20T10:48:44.451Z",
+        "updated_at": "2023-09-20T22:38:54.228Z",
+        "product_id": "2d4a02d6-cb68-4592-ad86-fdf1d10fc8be",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4ce1b4ea-c5bd-45c8-b5d6-270c5e18b4bd",
+        "quantity": 85721,
+        "added_date": "2023-09-20T01:02:09.578Z",
+        "created_at": "2023-09-20T17:39:17.393Z",
+        "updated_at": "2023-09-20T05:12:27.078Z",
+        "product_id": "2d4a02d6-cb68-4592-ad86-fdf1d10fc8be",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d97eaf06-919d-46fc-8a2e-8df01861f43e",
+        "quantity": 90344,
+        "added_date": "2023-09-20T13:57:23.974Z",
+        "created_at": "2023-09-20T05:18:47.898Z",
+        "updated_at": "2023-09-20T14:25:10.500Z",
+        "product_id": "2d4a02d6-cb68-4592-ad86-fdf1d10fc8be",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bc31b5fd-d14c-423a-a120-605a7e79c45a",
+        "quantity": 2208,
+        "added_date": "2023-09-20T09:12:37.543Z",
+        "created_at": "2023-09-20T01:32:32.659Z",
+        "updated_at": "2023-09-20T02:10:31.267Z",
+        "product_id": "f1dd7296-51c6-4826-b78a-c09d60f67102",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a1856e67-7b0e-4d02-8e16-61880710f22b",
+        "email": "Terence.OReilly@hotmail.com",
+        "firstName": "Darrion",
+        "lastName": "Shanahan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/213.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "961ed394-e2cf-43b3-b234-406724687cdd",
+        "email": "Jeremie90@gmail.com",
+        "firstName": "Aron",
+        "lastName": "Shanahan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16970716",
+        "tenantId": null
+      },
+      {
+        "reference": "b9d29a79-bd49-4bbf-a0ec-1830cf9a0931",
+        "email": "Caleigh_Orn@hotmail.com",
+        "firstName": "Angelita",
+        "lastName": "Daugherty",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/958.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0da0f94a-bc3c-42f6-9e93-18cc6872869e",
+        "email": "Bettie61@yahoo.com",
+        "firstName": "Vito",
+        "lastName": "Bode",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19197659",
+        "tenantId": null
+      },
+      {
+        "reference": "7b069cfb-7b20-46ea-b20e-2fc4ecf8dc00",
+        "email": "Alanna.Steuber35@yahoo.com",
+        "firstName": "Annette",
+        "lastName": "Bergnaum",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51015379",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "category": [
+      {
+        "id": "93410aff-b847-4343-9334-ffc9004ad800",
+        "name": "Electronics",
+        "description": "The latest gadgets and technology",
+        "created_at": "2023-09-20T21:18:49.529Z",
+        "updated_at": "2023-09-20T07:11:37.376Z"
+      },
+      {
+        "id": "d4a81947-1406-4f05-b7da-38720418d3dc",
+        "name": "Fashion",
+        "description": "Trendy clothing and accessories",
+        "created_at": "2023-09-20T23:02:16.661Z",
+        "updated_at": "2023-09-19T23:50:05.678Z"
+      },
+      {
+        "id": "2361054b-65b9-4f5f-a7ce-f8aa7966902f",
+        "name": "Home Decor",
+        "description": "Beautiful items for your home",
+        "created_at": "2023-09-20T22:56:33.644Z",
+        "updated_at": "2023-09-20T06:01:12.012Z"
+      },
+      {
+        "id": "53e5c586-e873-4f3d-b7cd-f855f08e9a3d",
+        "name": "Sports",
+        "description": "Equipment for various sports",
+        "created_at": "2023-09-20T06:35:49.485Z",
+        "updated_at": "2023-09-20T20:02:04.218Z"
+      },
+      {
+        "id": "bb173cb5-7f22-455c-a526-442fead4880e",
+        "name": "Books",
+        "description": "A wide range of books",
+        "created_at": "2023-09-20T15:18:20.543Z",
+        "updated_at": "2023-09-20T03:41:07.875Z"
+      }
+    ],
+    "product": [
+      {
+        "id": "8a50e429-817e-462b-bd57-743b58522db6",
+        "name": "Smartphone",
+        "description": "A powerful and sleek mobile device",
+        "price": 63807,
+        "stock": 51684,
+        "created_at": "2023-09-20T17:02:13.958Z",
+        "updated_at": "2023-09-20T07:43:55.099Z",
+        "category_id": "53e5c586-e873-4f3d-b7cd-f855f08e9a3d",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a25eaea6-f980-4908-9f33-81981902ed53",
+        "name": "Dress",
+        "description": "A stylish and elegant outfit",
+        "price": 87175,
+        "stock": 65712,
+        "created_at": "2023-09-20T06:43:52.700Z",
+        "updated_at": "2023-09-20T21:55:26.126Z",
+        "category_id": "2361054b-65b9-4f5f-a7ce-f8aa7966902f",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "21f565fb-0509-4ea6-994d-aa9ee48d864f",
+        "name": "Candle",
+        "description": "A fragrant and decorative item",
+        "price": 74629,
+        "stock": 64500,
+        "created_at": "2023-09-20T18:09:30.537Z",
+        "updated_at": "2023-09-20T11:47:24.754Z",
+        "category_id": "d4a81947-1406-4f05-b7da-38720418d3dc",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4996e96e-c631-4502-ad9a-40eb39fd37af",
+        "name": "Tennis racket",
+        "description": "A high-quality sports equipment",
+        "price": 19053,
+        "stock": 68976,
+        "created_at": "2023-09-20T03:30:51.712Z",
+        "updated_at": "2023-09-20T23:06:20.085Z",
+        "category_id": "bb173cb5-7f22-455c-a526-442fead4880e",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5caf34a7-5b4e-4ca7-acff-f95599fa811d",
+        "name": "Novel",
+        "description": "An engaging and captivating story",
+        "price": 76256,
+        "stock": 56714,
+        "created_at": "2023-09-20T08:39:07.409Z",
+        "updated_at": "2023-09-20T19:06:58.985Z",
+        "category_id": "53e5c586-e873-4f3d-b7cd-f855f08e9a3d",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "order": [
+      {
+        "id": "9b43ea1e-2887-441c-a9fb-67421604f1cb",
+        "quantity": 2422,
+        "total_price": 78952,
+        "order_date": "2023-09-20T13:19:33.966Z",
+        "status": "Pending",
+        "created_at": "2023-09-19T23:24:07.836Z",
+        "updated_at": "2023-09-20T22:33:47.851Z",
+        "product_id": "8a50e429-817e-462b-bd57-743b58522db6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "051d6293-9038-4d92-b137-5c12161c4b30",
+        "quantity": 16762,
+        "total_price": 26053,
+        "order_date": "2023-09-20T10:38:45.996Z",
+        "status": "Processing",
+        "created_at": "2023-09-20T15:40:13.187Z",
+        "updated_at": "2023-09-20T03:59:23.805Z",
+        "product_id": "5caf34a7-5b4e-4ca7-acff-f95599fa811d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a124f0b8-3910-4d69-8eb6-e50ccce2086a",
+        "quantity": 44484,
+        "total_price": 54569,
+        "order_date": "2023-09-20T02:09:26.244Z",
+        "status": "Shipped",
+        "created_at": "2023-09-20T12:54:33.490Z",
+        "updated_at": "2023-09-20T02:46:48.424Z",
+        "product_id": "8a50e429-817e-462b-bd57-743b58522db6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a28ed9b4-4a10-414d-8965-150b13aad72c",
+        "quantity": 75580,
+        "total_price": 50545,
+        "order_date": "2023-09-20T02:22:09.838Z",
+        "status": "Delivered",
+        "created_at": "2023-09-20T06:47:14.846Z",
+        "updated_at": "2023-09-20T20:07:22.473Z",
+        "product_id": "8a50e429-817e-462b-bd57-743b58522db6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "077f4c82-5c4d-400c-8f6d-c097aebd95cb",
+        "quantity": 9872,
+        "total_price": 33901,
+        "order_date": "2023-09-20T15:04:38.059Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-20T22:53:11.911Z",
+        "updated_at": "2023-09-20T08:40:38.242Z",
+        "product_id": "21f565fb-0509-4ea6-994d-aa9ee48d864f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cart": [
+      {
+        "id": "ef7a0ccf-44fa-4886-88b1-4e782a1348b5",
+        "quantity": 88472,
+        "added_date": "2023-09-19T23:36:01.903Z",
+        "created_at": "2023-09-20T00:58:21.265Z",
+        "updated_at": "2023-09-20T04:38:51.379Z",
+        "product_id": "a25eaea6-f980-4908-9f33-81981902ed53",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "69230a15-8382-4508-bc46-0ea21c8f203d",
+        "quantity": 58486,
+        "added_date": "2023-09-20T17:14:50.384Z",
+        "created_at": "2023-09-20T12:01:20.095Z",
+        "updated_at": "2023-09-20T05:19:39.688Z",
+        "product_id": "4996e96e-c631-4502-ad9a-40eb39fd37af",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d367c9fa-1981-43a8-b621-479c4474b038",
+        "quantity": 49231,
+        "added_date": "2023-09-20T02:28:36.593Z",
+        "created_at": "2023-09-20T15:42:37.096Z",
+        "updated_at": "2023-09-20T06:39:04.724Z",
+        "product_id": "5caf34a7-5b4e-4ca7-acff-f95599fa811d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6a79b0a8-1342-415a-b0d5-fb04f4b2ddaf",
+        "quantity": 32464,
+        "added_date": "2023-09-20T10:09:45.468Z",
+        "created_at": "2023-09-20T06:22:23.591Z",
+        "updated_at": "2023-09-20T23:19:34.900Z",
+        "product_id": "8a50e429-817e-462b-bd57-743b58522db6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "213547e2-3b16-40f2-ac9d-48d6fe8b4504",
+        "quantity": 12161,
+        "added_date": "2023-09-20T07:15:20.492Z",
+        "created_at": "2023-09-20T01:24:56.237Z",
+        "updated_at": "2023-09-20T17:36:52.511Z",
+        "product_id": "5caf34a7-5b4e-4ca7-acff-f95599fa811d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "fc98de0f-6bcd-4d99-9663-08fd630ccff4",
+        "email": "Lincoln98@yahoo.com",
+        "firstName": "Alek",
+        "lastName": "Dicki",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1129.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d8cccdc8-5a55-479e-80a5-f179946c2cbf",
+        "email": "Justyn.Wuckert@yahoo.com",
+        "firstName": "Dewitt",
+        "lastName": "Walter",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70022859",
+        "tenantId": null
+      },
+      {
+        "reference": "59a23d77-e5ff-457a-a7ec-6df0bd0c5cf1",
+        "email": "Magnus.Stokes14@gmail.com",
+        "firstName": "Robb",
+        "lastName": "Effertz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/28.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3881f0d8-e804-428f-aedc-73901b1076b7",
+        "email": "Betsy.Mitchell@yahoo.com",
+        "firstName": "Alisa",
+        "lastName": "Simonis",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31213679",
+        "tenantId": null
+      },
+      {
+        "reference": "3f4557eb-4ac9-49d5-be4b-670fa9a48ce6",
+        "email": "Terrell95@hotmail.com",
+        "firstName": "Darion",
+        "lastName": "Larson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19875305",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "category": [
+      {
+        "id": "e702c3ca-7208-4bfa-a35d-815ded81fe35",
+        "name": "Electronics",
+        "description": "The latest electronic gadgets",
+        "created_at": "2023-09-20T05:35:08.191Z",
+        "updated_at": "2023-09-20T08:46:06.676Z"
+      },
+      {
+        "id": "e1012990-9aaf-49ef-8f8f-1a4080d564bf",
+        "name": "Clothing",
+        "description": "Fashionable clothing and accessories",
+        "created_at": "2023-09-20T00:04:26.170Z",
+        "updated_at": "2023-09-20T12:22:58.930Z"
+      },
+      {
+        "id": "cb7ae569-0746-4284-bcfc-c787f31addf4",
+        "name": "Home Decor",
+        "description": "Beautiful home decoration items",
+        "created_at": "2023-09-20T22:14:59.078Z",
+        "updated_at": "2023-09-20T17:47:10.212Z"
+      },
+      {
+        "id": "221c55e5-7ad9-4045-8dea-ae22f4581121",
+        "name": "Automotive",
+        "description": "High-quality automotive parts",
+        "created_at": "2023-09-20T09:46:35.438Z",
+        "updated_at": "2023-09-20T21:07:31.946Z"
+      },
+      {
+        "id": "d3eb801d-5dd7-4cfe-9512-a9a5c29f89b2",
+        "name": "Sports",
+        "description": "Sports equipment for all activities",
+        "created_at": "2023-09-20T20:30:01.915Z",
+        "updated_at": "2023-09-20T06:00:39.951Z"
+      }
+    ],
+    "product": [
+      {
+        "id": "61828d8b-3fc5-4e1f-95f5-bda8bd62313f",
+        "name": "Smartphone",
+        "description": "A powerful and sleek smartphone",
+        "price": 61241,
+        "stock": 2573,
+        "created_at": "2023-09-20T03:38:07.501Z",
+        "updated_at": "2023-09-20T14:41:51.801Z",
+        "category_id": "d3eb801d-5dd7-4cfe-9512-a9a5c29f89b2",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "dfb7df35-580e-4758-b9f6-f700716ff9bd",
+        "name": "T-shirt",
+        "description": "A comfortable and stylish t-shirt",
+        "price": 65064,
+        "stock": 73826,
+        "created_at": "2023-09-20T14:11:38.441Z",
+        "updated_at": "2023-09-20T12:29:13.247Z",
+        "category_id": "e1012990-9aaf-49ef-8f8f-1a4080d564bf",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "49e10e2c-0568-4bdb-a520-3f01b48d6faf",
+        "name": "Decorative Pillow",
+        "description": "A soft and luxurious decorative pillow",
+        "price": 79003,
+        "stock": 12154,
+        "created_at": "2023-09-20T03:53:32.295Z",
+        "updated_at": "2023-09-20T20:24:08.583Z",
+        "category_id": "221c55e5-7ad9-4045-8dea-ae22f4581121",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "bd4db4db-8109-4962-8129-c57490d54d2b",
+        "name": "Car Battery",
+        "description": "A reliable and long-lasting car battery",
+        "price": 89867,
+        "stock": 80245,
+        "created_at": "2023-09-20T16:17:07.331Z",
+        "updated_at": "2023-09-20T21:34:19.937Z",
+        "category_id": "221c55e5-7ad9-4045-8dea-ae22f4581121",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e73907ac-b7f7-4a69-bd45-4020350e3583",
+        "name": "Yoga Mat",
+        "description": "A durable and non-slip yoga mat",
+        "price": 11896,
+        "stock": 51216,
+        "created_at": "2023-09-20T17:00:27.954Z",
+        "updated_at": "2023-09-20T18:34:10.128Z",
+        "category_id": "221c55e5-7ad9-4045-8dea-ae22f4581121",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "order": [
+      {
+        "id": "46e28bf0-841e-45f8-927a-0ddd3a379e63",
+        "quantity": 73835,
+        "total_price": 23509,
+        "order_date": "2023-09-20T02:20:58.473Z",
+        "status": "Pending",
+        "created_at": "2023-09-20T07:54:27.508Z",
+        "updated_at": "2023-09-20T07:29:26.396Z",
+        "product_id": "61828d8b-3fc5-4e1f-95f5-bda8bd62313f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b8b218b0-9575-4481-b59a-4c3565e68a49",
+        "quantity": 51543,
+        "total_price": 27686,
+        "order_date": "2023-09-20T05:07:00.651Z",
+        "status": "Processing",
+        "created_at": "2023-09-20T20:23:04.836Z",
+        "updated_at": "2023-09-20T01:04:35.125Z",
+        "product_id": "bd4db4db-8109-4962-8129-c57490d54d2b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "340241e7-90d5-45ca-b5b7-ed6e8616316c",
+        "quantity": 26337,
+        "total_price": 53986,
+        "order_date": "2023-09-20T07:57:26.749Z",
+        "status": "Shipped",
+        "created_at": "2023-09-20T06:30:42.326Z",
+        "updated_at": "2023-09-20T21:24:08.904Z",
+        "product_id": "bd4db4db-8109-4962-8129-c57490d54d2b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "80f4abfa-5242-49f4-b939-175b1f8e8ded",
+        "quantity": 47017,
+        "total_price": 53483,
+        "order_date": "2023-09-20T17:26:38.198Z",
+        "status": "Delivered",
+        "created_at": "2023-09-20T08:01:30.760Z",
+        "updated_at": "2023-09-20T16:19:39.305Z",
+        "product_id": "bd4db4db-8109-4962-8129-c57490d54d2b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "072c5f7d-17d8-4442-af5b-672d7aee6e77",
+        "quantity": 82374,
+        "total_price": 29799,
+        "order_date": "2023-09-20T19:11:21.299Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-20T02:54:56.645Z",
+        "updated_at": "2023-09-20T20:54:05.247Z",
+        "product_id": "dfb7df35-580e-4758-b9f6-f700716ff9bd",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cart": [
+      {
+        "id": "4d90b0e0-886a-4389-9af2-06f544436eb3",
+        "quantity": 17087,
+        "added_date": "2023-09-20T12:09:47.041Z",
+        "created_at": "2023-09-20T01:59:17.884Z",
+        "updated_at": "2023-09-20T00:41:43.905Z",
+        "product_id": "61828d8b-3fc5-4e1f-95f5-bda8bd62313f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "868a23c9-6b6b-49cb-9312-5e9852ab5854",
+        "quantity": 44682,
+        "added_date": "2023-09-20T08:32:33.788Z",
+        "created_at": "2023-09-20T09:45:41.858Z",
+        "updated_at": "2023-09-20T03:56:25.865Z",
+        "product_id": "bd4db4db-8109-4962-8129-c57490d54d2b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d6cac9ff-5031-42cd-8fd2-bba44d1af4cc",
+        "quantity": 81326,
+        "added_date": "2023-09-20T21:04:21.212Z",
+        "created_at": "2023-09-19T23:38:17.942Z",
+        "updated_at": "2023-09-20T03:13:20.686Z",
+        "product_id": "dfb7df35-580e-4758-b9f6-f700716ff9bd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "58eea12a-4fc4-4bdb-8e41-cea99f8f368e",
+        "quantity": 61212,
+        "added_date": "2023-09-20T00:53:12.398Z",
+        "created_at": "2023-09-20T10:41:46.852Z",
+        "updated_at": "2023-09-20T14:29:12.926Z",
+        "product_id": "bd4db4db-8109-4962-8129-c57490d54d2b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9c5fb87a-3385-4e7a-9847-4c8ede8cd725",
+        "quantity": 72084,
+        "added_date": "2023-09-20T09:12:41.437Z",
+        "created_at": "2023-09-20T04:54:53.028Z",
+        "updated_at": "2023-09-20T13:23:57.439Z",
+        "product_id": "bd4db4db-8109-4962-8129-c57490d54d2b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e385da4f-f2f5-45d5-adeb-e2b9bddff39b",
+        "email": "Shea.Herzog@yahoo.com",
+        "firstName": "Alex",
+        "lastName": "Leannon",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1174.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "288e7a71-392a-4cc5-82f7-d72f599f06d4",
+        "email": "Lizzie_Gibson@gmail.com",
+        "firstName": "Sabina",
+        "lastName": "Swaniawski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/57480773",
+        "tenantId": null
+      },
+      {
+        "reference": "acdabd16-b09d-4078-abe5-933907834696",
+        "email": "Xander69@hotmail.com",
+        "firstName": "Kara",
+        "lastName": "Bergstrom",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/825.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d03e192b-439c-467e-a532-b4a008140240",
+        "email": "Treva.Hagenes@yahoo.com",
+        "firstName": "Dayna",
+        "lastName": "Bergstrom",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/985.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5b83c2f3-1571-48ad-b552-d874531e6605",
+        "email": "Ellen.Fritsch21@hotmail.com",
+        "firstName": "Frederik",
+        "lastName": "Thompson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/131.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "category": [
+      {
+        "id": "22e0718e-2185-4a99-9cb9-9422a2c8a0c1",
+        "name": "Electronics",
+        "description": "The latest electronic gadgets",
+        "created_at": "2023-09-20T08:27:39.009Z",
+        "updated_at": "2023-09-20T15:18:17.970Z"
+      },
+      {
+        "id": "c0853fd3-5a78-4837-a0ac-5858b663dc0e",
+        "name": "Fashion",
+        "description": "Trendy clothing and accessories",
+        "created_at": "2023-09-20T01:10:57.950Z",
+        "updated_at": "2023-09-20T13:49:56.960Z"
+      },
+      {
+        "id": "719481e1-bb97-4b86-8566-f6baea85206e",
+        "name": "Home & Garden",
+        "description": "Quality home and garden products",
+        "created_at": "2023-09-20T12:08:19.429Z",
+        "updated_at": "2023-09-20T09:37:29.417Z"
+      },
+      {
+        "id": "9ab263ec-a4fd-4cce-91d3-ef58c886a02c",
+        "name": "Sports & Outdoors",
+        "description": "Outdoor gear and equipment",
+        "created_at": "2023-09-20T18:22:44.503Z",
+        "updated_at": "2023-09-20T18:29:05.554Z"
+      },
+      {
+        "id": "9bf9ab1e-20aa-4a03-8f5e-881d253c83b1",
+        "name": "Health & Beauty",
+        "description": "Beauty and wellness products",
+        "created_at": "2023-09-20T15:10:32.983Z",
+        "updated_at": "2023-09-20T19:48:59.031Z"
+      }
+    ],
+    "product": [
+      {
+        "id": "a964f93b-928c-4194-8a22-6b6f87edae6e",
+        "name": "Smartphone",
+        "description": "A high-performance smartphone with advanced features",
+        "price": 56465,
+        "stock": 84946,
+        "created_at": "2023-09-19T23:43:27.961Z",
+        "updated_at": "2023-09-20T16:09:40.490Z",
+        "category_id": "c0853fd3-5a78-4837-a0ac-5858b663dc0e",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "de96ede3-c919-4a3b-9ae6-b149c8ad9eff",
+        "name": "Dress",
+        "description": "A stylish dress for any occasion",
+        "price": 68141,
+        "stock": 83517,
+        "created_at": "2023-09-20T11:26:24.534Z",
+        "updated_at": "2023-09-20T07:04:08.434Z",
+        "category_id": "719481e1-bb97-4b86-8566-f6baea85206e",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2ca059bf-3baa-456d-801a-b4ee5deb31ba",
+        "name": "Kitchenware Set",
+        "description": "A complete set of kitchen essentials",
+        "price": 32411,
+        "stock": 62236,
+        "created_at": "2023-09-20T14:14:33.836Z",
+        "updated_at": "2023-09-20T01:42:47.380Z",
+        "category_id": "c0853fd3-5a78-4837-a0ac-5858b663dc0e",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c13ca10c-df4f-42e2-91a4-6e368f891e3c",
+        "name": "Hiking Backpack",
+        "description": "A durable backpack for outdoor adventures",
+        "price": 93825,
+        "stock": 82236,
+        "created_at": "2023-09-20T18:24:30.337Z",
+        "updated_at": "2023-09-20T06:09:31.951Z",
+        "category_id": "22e0718e-2185-4a99-9cb9-9422a2c8a0c1",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a8b5cb08-9bd1-41af-be7e-dcba02f605bf",
+        "name": "Skincare Set",
+        "description": "A comprehensive skincare set for radiant skin",
+        "price": 58411,
+        "stock": 33456,
+        "created_at": "2023-09-19T23:51:39.546Z",
+        "updated_at": "2023-09-20T18:48:30.851Z",
+        "category_id": "9bf9ab1e-20aa-4a03-8f5e-881d253c83b1",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "order": [
+      {
+        "id": "b531c888-9395-4ebc-ba5a-3f1d1fd9d0e0",
+        "quantity": 75787,
+        "total_price": 53203,
+        "order_date": "2023-09-20T20:30:33.529Z",
+        "status": "Pending",
+        "created_at": "2023-09-20T22:15:00.623Z",
+        "updated_at": "2023-09-20T14:29:04.765Z",
+        "product_id": "2ca059bf-3baa-456d-801a-b4ee5deb31ba",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "38ce5850-9a1a-4bfb-8cae-5d964c35a41f",
+        "quantity": 38198,
+        "total_price": 1976,
+        "order_date": "2023-09-20T07:57:52.554Z",
+        "status": "Processing",
+        "created_at": "2023-09-20T17:59:03.446Z",
+        "updated_at": "2023-09-20T15:16:36.368Z",
+        "product_id": "a8b5cb08-9bd1-41af-be7e-dcba02f605bf",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "98f14648-fb28-4c6c-b796-fda071d17137",
+        "quantity": 44491,
+        "total_price": 74411,
+        "order_date": "2023-09-20T14:46:08.881Z",
+        "status": "Shipped",
+        "created_at": "2023-09-20T09:55:08.872Z",
+        "updated_at": "2023-09-20T16:46:41.546Z",
+        "product_id": "de96ede3-c919-4a3b-9ae6-b149c8ad9eff",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "93a16ae2-7525-4444-ac89-d75f4580d2c9",
+        "quantity": 93973,
+        "total_price": 65994,
+        "order_date": "2023-09-20T05:42:27.499Z",
+        "status": "Delivered",
+        "created_at": "2023-09-20T09:52:45.445Z",
+        "updated_at": "2023-09-20T13:20:24.794Z",
+        "product_id": "de96ede3-c919-4a3b-9ae6-b149c8ad9eff",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ff9eaa1e-f77d-4094-98f0-237a7dac1570",
+        "quantity": 32203,
+        "total_price": 44500,
+        "order_date": "2023-09-20T14:58:27.934Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-20T20:23:39.688Z",
+        "updated_at": "2023-09-20T17:46:33.539Z",
+        "product_id": "de96ede3-c919-4a3b-9ae6-b149c8ad9eff",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cart": [
+      {
+        "id": "ae47f1fa-2bdf-46eb-b4bd-800c96d95bdc",
+        "quantity": 68010,
+        "added_date": "2023-09-20T00:50:48.685Z",
+        "created_at": "2023-09-20T22:07:54.087Z",
+        "updated_at": "2023-09-20T03:17:56.164Z",
+        "product_id": "a8b5cb08-9bd1-41af-be7e-dcba02f605bf",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dd923f37-18a2-4df2-9eab-3755f0c8e038",
+        "quantity": 75613,
+        "added_date": "2023-09-20T13:02:50.251Z",
+        "created_at": "2023-09-20T06:57:59.697Z",
+        "updated_at": "2023-09-20T20:55:53.179Z",
+        "product_id": "de96ede3-c919-4a3b-9ae6-b149c8ad9eff",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "06b19a35-7280-47a4-99d1-03a93da74936",
+        "quantity": 11007,
+        "added_date": "2023-09-20T10:21:59.889Z",
+        "created_at": "2023-09-20T22:56:09.520Z",
+        "updated_at": "2023-09-20T13:52:00.518Z",
+        "product_id": "a8b5cb08-9bd1-41af-be7e-dcba02f605bf",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0f95499c-8d73-41a0-823f-5b911340e53b",
+        "quantity": 96924,
+        "added_date": "2023-09-20T04:34:36.122Z",
+        "created_at": "2023-09-20T16:14:33.189Z",
+        "updated_at": "2023-09-20T09:23:37.231Z",
+        "product_id": "a8b5cb08-9bd1-41af-be7e-dcba02f605bf",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0947f059-8a01-47d4-98b1-2d7653b6cfc4",
+        "quantity": 55866,
+        "added_date": "2023-09-20T03:06:31.328Z",
+        "created_at": "2023-09-20T20:16:54.048Z",
+        "updated_at": "2023-09-20T11:31:19.685Z",
+        "product_id": "2ca059bf-3baa-456d-801a-b4ee5deb31ba",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "16452983-3c4e-4835-b521-d203e7cdc741",
+        "email": "Felton79@yahoo.com",
+        "firstName": "Carolanne",
+        "lastName": "Mohr",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/507.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "038b2615-0d29-43e9-8837-3df888787854",
+        "email": "Maurine_Hartmann@gmail.com",
+        "firstName": "Iva",
+        "lastName": "Ebert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/183.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5e795b54-3802-425b-9be3-77e6e48f0f96",
+        "email": "Reta.Goldner@hotmail.com",
+        "firstName": "Broderick",
+        "lastName": "Buckridge",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60894964",
+        "tenantId": null
+      },
+      {
+        "reference": "a9ba9c4c-378f-4568-bbae-b981fa4c64d9",
+        "email": "Joelle.Krajcik@gmail.com",
+        "firstName": "Samanta",
+        "lastName": "Kemmer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/295.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8b16c770-08dd-4bef-8ff9-84a81625871a",
+        "email": "Kristy98@hotmail.com",
+        "firstName": "Abdiel",
+        "lastName": "Homenick",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8273797",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "category": [
+      {
+        "id": "a9c47d21-c93d-4092-98dc-505fb0b08531",
+        "name": "Electronics",
+        "description": "The latest gadgets and technology",
+        "created_at": "2023-09-20T08:43:50.406Z",
+        "updated_at": "2023-09-20T04:53:07.660Z"
+      },
+      {
+        "id": "66ccc9c0-a65e-423c-b35d-e6b2002b47c6",
+        "name": "Fashion",
+        "description": "Trendy clothing and accessories",
+        "created_at": "2023-09-20T05:06:15.789Z",
+        "updated_at": "2023-09-20T02:56:19.898Z"
+      },
+      {
+        "id": "2d024ce3-7111-4207-ac1a-c2c23cfecef1",
+        "name": "Home Decor",
+        "description": "Beautiful items for your home",
+        "created_at": "2023-09-20T08:10:11.599Z",
+        "updated_at": "2023-09-20T12:03:35.996Z"
+      },
+      {
+        "id": "d2154965-8bc9-4042-8300-a986f0a0b64f",
+        "name": "Sports",
+        "description": "Equipment and gear for various sports",
+        "created_at": "2023-09-20T04:54:06.770Z",
+        "updated_at": "2023-09-20T17:30:08.701Z"
+      },
+      {
+        "id": "8387ac0b-380c-4584-95a1-bdcffe411511",
+        "name": "Books",
+        "description": "Bestselling novels and non-fiction books",
+        "created_at": "2023-09-20T09:53:02.329Z",
+        "updated_at": "2023-09-20T21:26:03.918Z"
+      }
+    ],
+    "product": [
+      {
+        "id": "dcfef9e6-075c-4870-8b03-6f4f1dba648f",
+        "name": "Smartphone",
+        "description": "A powerful and sleek mobile device",
+        "price": 56984,
+        "stock": 53610,
+        "created_at": "2023-09-20T18:59:34.492Z",
+        "updated_at": "2023-09-20T04:04:48.231Z",
+        "category_id": "8387ac0b-380c-4584-95a1-bdcffe411511",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1259263d-50c7-41e5-9886-f238717fcdfb",
+        "name": "Dress",
+        "description": "A stylish and elegant dress",
+        "price": 86635,
+        "stock": 24673,
+        "created_at": "2023-09-20T01:48:31.177Z",
+        "updated_at": "2023-09-20T01:21:21.154Z",
+        "category_id": "d2154965-8bc9-4042-8300-a986f0a0b64f",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ca79abe0-19e8-4fae-9661-f26e5d628cba",
+        "name": "Vase",
+        "description": "A decorative vase for your home",
+        "price": 64914,
+        "stock": 72935,
+        "created_at": "2023-09-20T17:43:20.024Z",
+        "updated_at": "2023-09-20T00:17:09.330Z",
+        "category_id": "8387ac0b-380c-4584-95a1-bdcffe411511",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3eb06b10-98ed-4dd7-b677-0d9737666780",
+        "name": "Tennis racket",
+        "description": "A high-quality tennis racket for professional players",
+        "price": 37445,
+        "stock": 72404,
+        "created_at": "2023-09-20T01:21:35.858Z",
+        "updated_at": "2023-09-20T14:01:20.352Z",
+        "category_id": "2d024ce3-7111-4207-ac1a-c2c23cfecef1",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ffa3a27a-0205-4108-a244-200b331bec12",
+        "name": "Novel",
+        "description": "A captivating novel that will keep you hooked",
+        "price": 70663,
+        "stock": 69241,
+        "created_at": "2023-09-20T02:58:44.798Z",
+        "updated_at": "2023-09-20T03:57:18.238Z",
+        "category_id": "8387ac0b-380c-4584-95a1-bdcffe411511",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "order": [
+      {
+        "id": "7b7944d0-5260-4deb-be12-eae63572f5eb",
+        "quantity": 361,
+        "total_price": 67771,
+        "order_date": "2023-09-20T10:54:02.395Z",
+        "status": "Pending",
+        "created_at": "2023-09-20T05:35:19.136Z",
+        "updated_at": "2023-09-20T00:47:34.471Z",
+        "product_id": "3eb06b10-98ed-4dd7-b677-0d9737666780",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f28c7f7b-455a-495f-bc37-50a787935211",
+        "quantity": 86419,
+        "total_price": 93504,
+        "order_date": "2023-09-19T23:31:05.617Z",
+        "status": "Processing",
+        "created_at": "2023-09-20T09:27:51.311Z",
+        "updated_at": "2023-09-20T15:50:24.004Z",
+        "product_id": "dcfef9e6-075c-4870-8b03-6f4f1dba648f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "64ec6b8d-cdc9-4704-b2d9-c4b1767f2b65",
+        "quantity": 75325,
+        "total_price": 60767,
+        "order_date": "2023-09-20T13:22:34.207Z",
+        "status": "Shipped",
+        "created_at": "2023-09-20T13:13:06.316Z",
+        "updated_at": "2023-09-20T20:17:26.430Z",
+        "product_id": "ca79abe0-19e8-4fae-9661-f26e5d628cba",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "94cdcf44-7cbd-44c0-9e56-3351df22a0ca",
+        "quantity": 95022,
+        "total_price": 96616,
+        "order_date": "2023-09-20T13:44:46.752Z",
+        "status": "Delivered",
+        "created_at": "2023-09-20T16:58:58.635Z",
+        "updated_at": "2023-09-20T18:13:40.888Z",
+        "product_id": "1259263d-50c7-41e5-9886-f238717fcdfb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "48047eec-c887-4c7b-874f-d8cba1b34bd8",
+        "quantity": 67845,
+        "total_price": 6433,
+        "order_date": "2023-09-20T04:18:19.267Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-20T02:58:39.102Z",
+        "updated_at": "2023-09-20T01:32:45.570Z",
+        "product_id": "dcfef9e6-075c-4870-8b03-6f4f1dba648f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cart": [
+      {
+        "id": "815e2c90-c30d-45cd-929d-6c8df9bc0b1d",
+        "quantity": 60235,
+        "added_date": "2023-09-20T04:47:13.726Z",
+        "created_at": "2023-09-20T17:26:23.313Z",
+        "updated_at": "2023-09-19T23:22:52.374Z",
+        "product_id": "3eb06b10-98ed-4dd7-b677-0d9737666780",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0309c4c6-b7cd-4b91-b97c-4101bf86dfcd",
+        "quantity": 29092,
+        "added_date": "2023-09-20T04:40:39.916Z",
+        "created_at": "2023-09-20T11:56:36.637Z",
+        "updated_at": "2023-09-20T01:35:06.042Z",
+        "product_id": "ca79abe0-19e8-4fae-9661-f26e5d628cba",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "11376688-f63a-4681-82ac-bf41ad95515e",
+        "quantity": 6433,
+        "added_date": "2023-09-20T05:12:38.820Z",
+        "created_at": "2023-09-20T08:52:10.219Z",
+        "updated_at": "2023-09-20T17:02:56.749Z",
+        "product_id": "dcfef9e6-075c-4870-8b03-6f4f1dba648f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c84938c3-1fa4-4099-bb45-5e9281d09342",
+        "quantity": 58480,
+        "added_date": "2023-09-20T16:45:34.533Z",
+        "created_at": "2023-09-20T09:32:26.273Z",
+        "updated_at": "2023-09-20T01:25:30.415Z",
+        "product_id": "dcfef9e6-075c-4870-8b03-6f4f1dba648f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b2d1e084-1459-4bef-a484-f80251f0fa0c",
+        "quantity": 87992,
+        "added_date": "2023-09-20T12:14:21.198Z",
+        "created_at": "2023-09-20T02:43:06.736Z",
+        "updated_at": "2023-09-20T07:01:28.258Z",
+        "product_id": "ca79abe0-19e8-4fae-9661-f26e5d628cba",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2f3e41d3-90c2-471e-b749-101bcd1c29c3",
+        "email": "Jay48@yahoo.com",
+        "firstName": "Lulu",
+        "lastName": "Abernathy-Rosenbaum",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/641.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a0d7f846-b6af-44fc-9bc8-5766f8052b2c",
+        "email": "Haven86@gmail.com",
+        "firstName": "Sylvan",
+        "lastName": "Tromp",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30554301",
+        "tenantId": null
+      },
+      {
+        "reference": "4e28f66b-40c8-4301-bcc4-dd2aa96b91e4",
+        "email": "Rudy.King84@gmail.com",
+        "firstName": "Keara",
+        "lastName": "Bauch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91448771",
+        "tenantId": null
+      },
+      {
+        "reference": "6778cbad-5d86-4035-a3ef-40ddb7875b04",
+        "email": "Delmer1@yahoo.com",
+        "firstName": "Katheryn",
+        "lastName": "Quitzon",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10005435",
+        "tenantId": null
+      },
+      {
+        "reference": "e0137390-da33-40ac-9af6-1a45d4bdc935",
+        "email": "Noemi_Hilll@gmail.com",
+        "firstName": "Denis",
+        "lastName": "Miller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/359.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "category": [
+      {
+        "id": "7042eee8-d8d7-4630-93a7-502d270fe2f5",
+        "name": "Electronics",
+        "description": "The latest gadgets and technology",
+        "created_at": "2023-09-20T13:26:10.630Z",
+        "updated_at": "2023-09-20T13:38:56.463Z"
+      },
+      {
+        "id": "33e52356-eda3-49db-88d8-04a02088d4c2",
+        "name": "Clothing",
+        "description": "Fashionable clothing and accessories",
+        "created_at": "2023-09-20T15:45:38.987Z",
+        "updated_at": "2023-09-20T18:43:47.484Z"
+      },
+      {
+        "id": "3fb16ea1-1cdf-4cf9-a321-75875e440969",
+        "name": "Home Decor",
+        "description": "Stylish home furnishings and decorations",
+        "created_at": "2023-09-20T01:05:50.966Z",
+        "updated_at": "2023-09-20T06:55:31.841Z"
+      },
+      {
+        "id": "4f57648d-8654-4def-a170-0385b6601642",
+        "name": "Sports & Outdoors",
+        "description": "Outdoor gear and equipment",
+        "created_at": "2023-09-20T11:03:29.249Z",
+        "updated_at": "2023-09-20T06:01:32.304Z"
+      },
+      {
+        "id": "edfe6364-8eef-4b74-bf72-ea3f13f84b0e",
+        "name": "Beauty",
+        "description": "Cosmetics and skincare products",
+        "created_at": "2023-09-20T11:08:43.107Z",
+        "updated_at": "2023-09-20T02:31:57.596Z"
+      }
+    ],
+    "product": [
+      {
+        "id": "5841a1e5-0f09-4e7c-8a04-e6775343b3c1",
+        "name": "Smartphone",
+        "description": "A high-performance mobile device",
+        "price": 50536,
+        "stock": 57401,
+        "created_at": "2023-09-20T13:41:10.606Z",
+        "updated_at": "2023-09-20T00:37:15.322Z",
+        "category_id": "33e52356-eda3-49db-88d8-04a02088d4c2",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d9539b2a-1b96-4d66-997b-0a72948530b7",
+        "name": "T-shirt",
+        "description": "A comfortable and stylish garment",
+        "price": 10921,
+        "stock": 37910,
+        "created_at": "2023-09-20T06:16:31.007Z",
+        "updated_at": "2023-09-20T00:45:19.651Z",
+        "category_id": "7042eee8-d8d7-4630-93a7-502d270fe2f5",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3138e492-fb74-4aef-9819-7b517293d555",
+        "name": "Decorative Pillow",
+        "description": "A decorative accent for your home",
+        "price": 39077,
+        "stock": 99125,
+        "created_at": "2023-09-20T09:40:00.249Z",
+        "updated_at": "2023-09-20T22:23:09.940Z",
+        "category_id": "4f57648d-8654-4def-a170-0385b6601642",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ceb92b6a-56fe-4df1-9c1c-ef53ac6d69c3",
+        "name": "Hiking Boots",
+        "description": "Durable footwear for outdoor adventures",
+        "price": 4814,
+        "stock": 30322,
+        "created_at": "2023-09-20T05:27:54.885Z",
+        "updated_at": "2023-09-20T13:12:13.097Z",
+        "category_id": "7042eee8-d8d7-4630-93a7-502d270fe2f5",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e2c3ae9c-d113-464f-a55b-422559b60f4d",
+        "name": "Lipstick",
+        "description": "A beauty product for enhancing your lips",
+        "price": 83964,
+        "stock": 634,
+        "created_at": "2023-09-20T20:47:40.775Z",
+        "updated_at": "2023-09-20T14:35:12.873Z",
+        "category_id": "4f57648d-8654-4def-a170-0385b6601642",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "order": [
+      {
+        "id": "1f2f3e01-4bbf-46b0-8f9d-ef4e71242b4a",
+        "quantity": 2151,
+        "total_price": 82542,
+        "order_date": "2023-09-20T07:36:25.860Z",
+        "status": "Pending",
+        "created_at": "2023-09-20T20:45:54.891Z",
+        "updated_at": "2023-09-20T00:41:02.623Z",
+        "product_id": "d9539b2a-1b96-4d66-997b-0a72948530b7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7cde0ee0-9ff5-491f-b4ba-38d92cb0637d",
+        "quantity": 71480,
+        "total_price": 32409,
+        "order_date": "2023-09-20T11:12:28.197Z",
+        "status": "Processing",
+        "created_at": "2023-09-20T16:54:56.414Z",
+        "updated_at": "2023-09-20T07:22:40.560Z",
+        "product_id": "e2c3ae9c-d113-464f-a55b-422559b60f4d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a4352e5b-78c0-4797-90c0-fffc6a84cc32",
+        "quantity": 44570,
+        "total_price": 21688,
+        "order_date": "2023-09-20T22:38:24.255Z",
+        "status": "Shipped",
+        "created_at": "2023-09-20T18:11:35.891Z",
+        "updated_at": "2023-09-20T05:35:17.439Z",
+        "product_id": "5841a1e5-0f09-4e7c-8a04-e6775343b3c1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "37621f45-5362-4144-b0a3-9fe977ef5245",
+        "quantity": 88402,
+        "total_price": 85954,
+        "order_date": "2023-09-20T03:33:18.314Z",
+        "status": "Delivered",
+        "created_at": "2023-09-20T11:33:03.371Z",
+        "updated_at": "2023-09-20T08:59:21.423Z",
+        "product_id": "ceb92b6a-56fe-4df1-9c1c-ef53ac6d69c3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3122aa44-7017-4b19-8419-c6be8ca37f44",
+        "quantity": 92196,
+        "total_price": 98921,
+        "order_date": "2023-09-20T10:39:11.427Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-20T01:57:36.070Z",
+        "updated_at": "2023-09-20T15:28:04.907Z",
+        "product_id": "5841a1e5-0f09-4e7c-8a04-e6775343b3c1",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cart": [
+      {
+        "id": "57fb2fbe-7d0d-45ac-b624-3dced6d7ee68",
+        "quantity": 48575,
+        "added_date": "2023-09-20T13:31:56.080Z",
+        "created_at": "2023-09-20T09:29:57.742Z",
+        "updated_at": "2023-09-20T12:11:15.579Z",
+        "product_id": "3138e492-fb74-4aef-9819-7b517293d555",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "520ab577-0fa8-41e6-8ad3-756f196b581c",
+        "quantity": 81300,
+        "added_date": "2023-09-20T08:59:39.747Z",
+        "created_at": "2023-09-20T02:09:57.253Z",
+        "updated_at": "2023-09-20T01:48:21.171Z",
+        "product_id": "5841a1e5-0f09-4e7c-8a04-e6775343b3c1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "22cc4d12-3a4d-454a-b02a-f20012f405be",
+        "quantity": 60531,
+        "added_date": "2023-09-20T04:02:41.994Z",
+        "created_at": "2023-09-20T11:56:54.374Z",
+        "updated_at": "2023-09-20T20:59:40.940Z",
+        "product_id": "ceb92b6a-56fe-4df1-9c1c-ef53ac6d69c3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6a43b4f9-7b52-4a68-ba0a-9c7ac776dfd2",
+        "quantity": 80839,
+        "added_date": "2023-09-20T09:03:19.927Z",
+        "created_at": "2023-09-20T03:57:58.462Z",
+        "updated_at": "2023-09-20T01:18:10.121Z",
+        "product_id": "ceb92b6a-56fe-4df1-9c1c-ef53ac6d69c3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f1cd8e42-b034-4811-b6d0-f80b6223d0c9",
+        "quantity": 74892,
+        "added_date": "2023-09-20T17:41:00.749Z",
+        "created_at": "2023-09-19T23:55:21.243Z",
+        "updated_at": "2023-09-20T06:33:55.834Z",
+        "product_id": "e2c3ae9c-d113-464f-a55b-422559b60f4d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "fd255ad3-7874-406f-afca-0bc6fa664222",
+        "email": "Claude43@hotmail.com",
+        "firstName": "Maxine",
+        "lastName": "Jacobs",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/504.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f4bf5a1c-743b-49f2-90e2-d11443b3d79b",
+        "email": "Cyril44@yahoo.com",
+        "firstName": "Meaghan",
+        "lastName": "Sawayn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/57668910",
+        "tenantId": null
+      },
+      {
+        "reference": "231d82d6-93ae-4fa8-9ea9-855c48dc722c",
+        "email": "Kathleen88@gmail.com",
+        "firstName": "Chanelle",
+        "lastName": "Murray",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/361.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "53dffb15-9494-4225-9b3f-95786512c68a",
+        "email": "Milo51@hotmail.com",
+        "firstName": "Moshe",
+        "lastName": "Hamill-Skiles",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/313.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "06c4e7f0-00e6-4990-81b4-032099943ec4",
+        "email": "Austin55@hotmail.com",
+        "firstName": "Lonny",
+        "lastName": "Williamson-Morar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29120853",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "category": [
+      {
+        "id": "7b64682f-2390-46e8-a8c0-e7fc84188a01",
+        "name": "Electronics",
+        "description": "The latest electronic gadgets",
+        "created_at": "2023-09-20T22:23:08.408Z",
+        "updated_at": "2023-09-20T02:51:28.044Z"
+      },
+      {
+        "id": "408262a4-e2b2-4a4a-a86c-fae5ae319451",
+        "name": "Fashion",
+        "description": "Trendy clothing and accessories",
+        "created_at": "2023-09-20T11:02:36.442Z",
+        "updated_at": "2023-09-20T21:26:26.872Z"
+      },
+      {
+        "id": "0ad0058f-6640-45b8-8ce0-6ecd5257faa9",
+        "name": "Home Decor",
+        "description": "Unique and stylish home decorations",
+        "created_at": "2023-09-20T19:04:19.389Z",
+        "updated_at": "2023-09-20T21:08:03.662Z"
+      },
+      {
+        "id": "3c76384c-eed1-4390-aa49-395c79ee9af2",
+        "name": "Sports",
+        "description": "Sports equipment and apparel",
+        "created_at": "2023-09-20T04:22:54.509Z",
+        "updated_at": "2023-09-20T07:50:33.349Z"
+      },
+      {
+        "id": "53a01d13-b3fb-4948-a649-52b91764b957",
+        "name": "Beauty",
+        "description": "High-quality beauty products",
+        "created_at": "2023-09-20T05:16:17.574Z",
+        "updated_at": "2023-09-20T02:11:45.762Z"
+      }
+    ],
+    "product": [
+      {
+        "id": "279585ed-51af-483f-b997-ae20372ffe64",
+        "name": "Smartphone",
+        "description": "A powerful and sleek smartphone",
+        "price": 36231,
+        "stock": 33135,
+        "created_at": "2023-09-20T05:51:24.708Z",
+        "updated_at": "2023-09-20T19:21:53.774Z",
+        "category_id": "7b64682f-2390-46e8-a8c0-e7fc84188a01",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f7f261b2-8834-4bdf-89be-794420f86855",
+        "name": "Dress",
+        "description": "A beautiful and elegant dress",
+        "price": 13721,
+        "stock": 6972,
+        "created_at": "2023-09-20T14:19:09.912Z",
+        "updated_at": "2023-09-20T18:14:04.230Z",
+        "category_id": "7b64682f-2390-46e8-a8c0-e7fc84188a01",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b38c24cc-e878-4f6b-9aaf-2dede4231ffd",
+        "name": "Candle",
+        "description": "A fragrant and decorative candle",
+        "price": 82193,
+        "stock": 81063,
+        "created_at": "2023-09-20T19:23:26.340Z",
+        "updated_at": "2023-09-20T21:05:57.866Z",
+        "category_id": "0ad0058f-6640-45b8-8ce0-6ecd5257faa9",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "13471d2f-5d82-4d53-8a46-870325fe4baf",
+        "name": "Tennis racket",
+        "description": "A high-performance tennis racket",
+        "price": 57099,
+        "stock": 45524,
+        "created_at": "2023-09-20T21:26:37.541Z",
+        "updated_at": "2023-09-20T12:07:28.527Z",
+        "category_id": "3c76384c-eed1-4390-aa49-395c79ee9af2",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2afda79c-97ce-431c-9e33-9c7e1a507172",
+        "name": "Lipstick",
+        "description": "A vibrant and long-lasting lipstick",
+        "price": 19585,
+        "stock": 77848,
+        "created_at": "2023-09-20T04:12:37.363Z",
+        "updated_at": "2023-09-20T14:58:23.596Z",
+        "category_id": "408262a4-e2b2-4a4a-a86c-fae5ae319451",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "order": [
+      {
+        "id": "a0265024-bc4a-4a6d-b3c4-36a64d84c923",
+        "quantity": 72027,
+        "total_price": 4357,
+        "order_date": "2023-09-20T05:51:45.520Z",
+        "status": "Pending",
+        "created_at": "2023-09-20T20:16:01.953Z",
+        "updated_at": "2023-09-20T13:44:16.388Z",
+        "product_id": "279585ed-51af-483f-b997-ae20372ffe64",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "65f6c1fe-3027-44a1-bd26-e6b5cdfadc30",
+        "quantity": 79809,
+        "total_price": 41201,
+        "order_date": "2023-09-20T02:44:57.845Z",
+        "status": "Processing",
+        "created_at": "2023-09-20T08:05:11.492Z",
+        "updated_at": "2023-09-20T08:28:24.490Z",
+        "product_id": "2afda79c-97ce-431c-9e33-9c7e1a507172",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e7cab955-55fe-4b34-8a0a-fe0cc0822a20",
+        "quantity": 20129,
+        "total_price": 68918,
+        "order_date": "2023-09-20T11:35:24.543Z",
+        "status": "Shipped",
+        "created_at": "2023-09-20T03:33:13.864Z",
+        "updated_at": "2023-09-20T14:33:37.996Z",
+        "product_id": "279585ed-51af-483f-b997-ae20372ffe64",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dc4d4a7e-96f0-4158-9d57-03d4ee920f0a",
+        "quantity": 98354,
+        "total_price": 54330,
+        "order_date": "2023-09-20T17:11:48.562Z",
+        "status": "Delivered",
+        "created_at": "2023-09-20T09:28:51.215Z",
+        "updated_at": "2023-09-20T10:22:44.791Z",
+        "product_id": "2afda79c-97ce-431c-9e33-9c7e1a507172",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ca41e560-d2f7-4647-91e6-ae8edba3cb2c",
+        "quantity": 97932,
+        "total_price": 25190,
+        "order_date": "2023-09-20T09:47:38.270Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-20T14:33:02.152Z",
+        "updated_at": "2023-09-20T07:07:41.091Z",
+        "product_id": "2afda79c-97ce-431c-9e33-9c7e1a507172",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cart": [
+      {
+        "id": "52fb87e9-d99d-41a0-88e8-75fbcda96f13",
+        "quantity": 45830,
+        "added_date": "2023-09-20T13:14:21.752Z",
+        "created_at": "2023-09-20T08:53:33.573Z",
+        "updated_at": "2023-09-20T12:26:19.997Z",
+        "product_id": "b38c24cc-e878-4f6b-9aaf-2dede4231ffd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "712c6054-7229-4af1-aee3-2a1760014c00",
+        "quantity": 18374,
+        "added_date": "2023-09-20T07:04:07.339Z",
+        "created_at": "2023-09-20T07:13:13.788Z",
+        "updated_at": "2023-09-20T15:06:08.399Z",
+        "product_id": "f7f261b2-8834-4bdf-89be-794420f86855",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "df9f8034-1613-4988-8938-8c57a7d5a6db",
+        "quantity": 19596,
+        "added_date": "2023-09-20T05:15:33.763Z",
+        "created_at": "2023-09-20T22:05:39.997Z",
+        "updated_at": "2023-09-20T10:23:54.152Z",
+        "product_id": "13471d2f-5d82-4d53-8a46-870325fe4baf",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "25174c88-cba4-43f0-83e7-2fad6871029b",
+        "quantity": 18362,
+        "added_date": "2023-09-20T12:45:52.192Z",
+        "created_at": "2023-09-20T13:56:01.657Z",
+        "updated_at": "2023-09-20T08:28:25.158Z",
+        "product_id": "279585ed-51af-483f-b997-ae20372ffe64",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3e2e1d66-7d93-4c78-8fdb-00bc7be13bea",
+        "quantity": 43699,
+        "added_date": "2023-09-20T10:26:07.762Z",
+        "created_at": "2023-09-20T22:51:15.922Z",
+        "updated_at": "2023-09-20T17:02:07.953Z",
+        "product_id": "2afda79c-97ce-431c-9e33-9c7e1a507172",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c693c76e-18ae-4148-b5ee-1d8021a773ba",
+        "email": "Carmine_Torp-Grady86@hotmail.com",
+        "firstName": "Matt",
+        "lastName": "Runolfsson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/805.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ab924b20-ea99-4401-ba05-44e5aa05a156",
+        "email": "Joaquin45@gmail.com",
+        "firstName": "Teagan",
+        "lastName": "MacGyver",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38353161",
+        "tenantId": null
+      },
+      {
+        "reference": "d0e58f1a-23a8-4e01-9192-889851c93fc3",
+        "email": "Tyreek.Predovic99@yahoo.com",
+        "firstName": "Garry",
+        "lastName": "Kohler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/134.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e1f9940c-164f-416d-bbf8-b96d13daeee7",
+        "email": "Wilhelmine.Bashirian@yahoo.com",
+        "firstName": "Winston",
+        "lastName": "Jast",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/431.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "87d08353-470d-443d-adb8-9917f9256371",
+        "email": "Donnell.Sipes36@yahoo.com",
+        "firstName": "Brittany",
+        "lastName": "Crist",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/760.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
